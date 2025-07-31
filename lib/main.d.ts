@@ -28,9 +28,13 @@ export interface SVGOptions {
   /** The baseline size for comparison, defaults to the maximum export bundle size. */
   baselineSize?: number;
   cardWidth?: number;
-  titleColor?: string;
-  progressColor?: string;
-  backgroundColor?: string;
+  theme?: {
+    titleColor?: string;
+    textColor?: string;
+    progressColor?: string;
+    progressTrackColor?: string;
+    backgroundColor?: string;
+  };
 }
 
 export function defineConfig(options: Options): Options;
