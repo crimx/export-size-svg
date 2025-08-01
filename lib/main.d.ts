@@ -20,7 +20,7 @@ export interface ExportOption {
   title: string;
   /** Code for the entry. e.g. `export { hello } from "./src/main.ts";`. */
   code: string;
-  /** List of external dependency paths to ignore. */
+  /** List of external dependency paths to ignore. @see {@link https://esbuild.github.io/api/#external} */
   externals?: string[];
 }
 
