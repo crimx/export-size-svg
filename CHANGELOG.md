@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.5](https://github.com/crimx/export-size-svg/compare/v0.0.4...v0.0.5) (2025-08-01)
+
+
+### Bug Fixes
+
+* add node bin env ([124d0bf](https://github.com/crimx/export-size-svg/commit/124d0bffbbf61da15a06009e0ce32dc38293d6a0))
+
 ## [0.0.4](https://github.com/crimx/export-size-svg/compare/v0.0.3...v0.0.4) (2025-08-01)
 
 

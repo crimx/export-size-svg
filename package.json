@@ -1,6 +1,6 @@
 {
   "name": "export-size-svg",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generate SVG charts of minimized sizes for selected exports.",
   "repository": "crimx/export-size-svg",
   "main": "./lib/main.mjs",
