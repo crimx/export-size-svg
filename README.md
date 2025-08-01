@@ -2,6 +2,10 @@
 
 Generate SVG charts of minimized sizes for selected exports.
 
+[![Docs](https://img.shields.io/badge/Docs-read-%23fdf9f5)](https://crimx.github.io/export-size-svg/)
+[![Build Status](https://github.com/crimx/export-size-svg/actions/workflows/build.yml/badge.svg)](https://github.com/crimx/export-size-svg/actions/workflows/build.yml)
+[![npm-version](https://img.shields.io/npm/v/export-size-svg.svg)](https://www.npmjs.com/package/export-size-svg)
+
 ![@wopjs/disposable](https://crimx.github.io/export-size-svg/images/export-size.svg)
 
 ## Usage
@@ -40,3 +44,5 @@ npx export-size-svg --out ./docs/images
      }
    }
    ```
+
+## Options

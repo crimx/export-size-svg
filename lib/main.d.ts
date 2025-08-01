@@ -1,6 +1,7 @@
 import { type BuildOptions } from "esbuild";
 
 export interface Options {
+  /** Define the export entries. */
   exports: ExportOption[];
   /** Directory to resolve entries from. */
   resolveDir?: string;
@@ -8,7 +9,7 @@ export interface Options {
   out?: string;
   /** Enable TSX support. Default false. */
   tsx?: boolean;
-  /** Extra esbuild options. */
+  /** Extra esbuild options. @see {@link https://esbuild.github.io/api/} */
   esbuildOptions?: BuildOptions;
   /** SVG card options. */
   svg?: SVGOptions;
