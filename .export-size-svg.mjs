@@ -1,6 +1,7 @@
 import { defineConfig } from "./lib/main.mjs";
 
 export default defineConfig({
+  title: "Example: @wopjs/disposable",
   out: "./docs/images",
   exports: [
     { title: "*", code: `export * from "@wopjs/disposable"` },
@@ -9,7 +10,6 @@ export default defineConfig({
     { title: "disposableOne", code: `export { disposableOne } from "@wopjs/disposable"` },
   ],
   svg: {
-    title: "Example: @wopjs/disposable",
     baselineSize: 1000,
     cardWidth: 350,
   },

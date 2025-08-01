@@ -3,6 +3,8 @@ import { type BuildOptions } from "esbuild";
 export interface Options {
   /** Define the export entries. */
   exports: ExportOption[];
+  /** Card title. */
+  title?: string;
   /** Directory to resolve entries from. */
   resolveDir?: string;
   /** Output file path for the SVG. */
@@ -25,7 +27,6 @@ export interface ExportOption {
 }
 
 export interface SVGOptions {
-  title?: string;
   /** The baseline size for comparison, defaults to the maximum export bundle size. */
   baselineSize?: number;
   cardWidth?: number;

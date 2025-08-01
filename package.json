@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "Generate SVG charts of minimized sizes for selected exports.",
   "repository": "crimx/export-size-svg",
+  "main": "./lib/main.mjs",
   "module": "./lib/main.mjs",
   "types": "./lib/main.d.ts",
   "type": "module",
