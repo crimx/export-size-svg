@@ -46,3 +46,5 @@ npx export-size-svg --out ./docs/images
    ```
 
 ## Options
+
+See [![Docs](https://img.shields.io/badge/Docs-read-%23fdf9f5)](https://crimx.github.io/export-size-svg/)
