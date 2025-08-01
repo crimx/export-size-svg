@@ -13,7 +13,7 @@ Generate SVG charts of minimized sizes for selected exports.
 Add a `.export-size-svg.mjs` configuration file to your project root.
 
 ```javascript
-import { defineConfig } from "./lib/main.mjs";
+import { defineConfig } from "export-size-svg";
 
 export default defineConfig({
   exports: [
