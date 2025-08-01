@@ -21,3 +21,9 @@ jobs:
       - name: Lint 🧹
         run: |
           npm run lint
+
+      - name: Build Docs 📖
+        run: npm run docs
+
+      - name: Generate SVG Charts 📊
+        run: npm run demo
