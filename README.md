@@ -6,7 +6,9 @@ Generate SVG charts of minimized sizes for selected exports.
 [![Build Status](https://github.com/crimx/export-size-svg/actions/workflows/build.yml/badge.svg)](https://github.com/crimx/export-size-svg/actions/workflows/build.yml)
 [![npm-version](https://img.shields.io/npm/v/export-size-svg.svg)](https://www.npmjs.com/package/export-size-svg)
 
-![@wopjs/disposable](https://crimx.github.io/export-size-svg/images/export-size.svg)
+## Example
+
+[![@embra/reactivity](https://embrajs.github.io/reactivity/assets/export-size.svg)](https://github.com/embrajs/reactivity)
 
 ## Usage
 
