@@ -54,7 +54,7 @@
     "commit-and-tag-version": "^12.5.2",
     "eslint": "^9.31.0",
     "prettier": "^3.6.2",
-    "typedoc": "^0.28.7"
+    "typedoc": "^0.28.9"
   },
   "dependencies": {
     "gzip-size": "^7.0.0",
