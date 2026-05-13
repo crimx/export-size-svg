@@ -1,4 +1,4 @@
-import { type BuildOptions } from "esbuild";
+import type { BuildOptions } from "esbuild";
 
 export interface Options {
   /** Define the export entries. */
