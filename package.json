@@ -59,7 +59,7 @@
     "esbuild": "^0.28.0",
     "gzip-size": "^7.0.0",
     "pretty-bytes": "^7.0.0",
-    "rollup": "^4.46.2",
+    "rollup": "^4.61.0",
     "sade": "^1.8.1"
   }
 }
