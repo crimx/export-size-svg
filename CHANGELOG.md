@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.8](https://github.com/crimx/export-size-svg/compare/v0.0.7...v0.0.8) (2026-11-23)
+
+### Bug Fixes
+
+* **bundle:** strip import/export syntax before sizing ([862d31a](https://github.com/crimx/export-size-svg/commit/862d31a1b414a2446fcef4eb11fd4cd782edce3e))
 ## [0.0.7](https://github.com/crimx/export-size-svg/compare/v0.0.6...v0.0.7) (2025-10-05)
 
 ## [0.0.6](https://github.com/crimx/export-size-svg/compare/v0.0.5...v0.0.6) (2025-09-22)
