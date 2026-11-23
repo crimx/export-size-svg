@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.9](https://github.com/crimx/export-size-svg/compare/v0.0.8...v0.0.9) (2026-11-23)
+
+### Features
+
+* **bundle:** Add externalSymbols support for exports ([a6b0209](https://github.com/crimx/export-size-svg/commit/a6b0209497791f07cb9dcae3b4d4dc2cab49c8ff))
+* **svg:** Support grouped export entries ([939211a](https://github.com/crimx/export-size-svg/commit/939211a7bd176e8eff0a0154eff3a411f84ef536))
 ## [0.0.8](https://github.com/crimx/export-size-svg/compare/v0.0.7...v0.0.8) (2026-11-23)
 
 ### Bug Fixes
