@@ -26,6 +26,32 @@ export default defineConfig({
 });
 ```
 
+You can also organize exports into 1-level groups:
+
+```javascript
+import { defineConfig } from "export-size-svg";
+
+export default defineConfig({
+  exports: [
+    { title: "Total", code: `export * from "./src"` },
+    {
+      title: "Core",
+      exports: [
+        { title: "hello", code: `export { hello } from "./src"` },
+        { title: "world", code: `export { world } from "./src"` },
+      ],
+    },
+    {
+      title: "Utils",
+      externals: ["./core"],
+      exports: [
+        { title: "helper", code: `export { helper } from "./src"` },
+      ],
+    },
+  ],
+});
+```
+
 ### Usage in CLI
 
 ```bash
