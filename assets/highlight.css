@@ -87,6 +87,7 @@
   color: var(--hl-6);
 }
 pre,
-code {
+code,
+math[display="block"] {
   background: var(--code-background);
 }
