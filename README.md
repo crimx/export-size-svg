@@ -44,6 +44,7 @@ export default defineConfig({
     {
       title: "Utils",
       externals: ["./core"],
+      externalSymbols: ["sharedHelper"],
       exports: [
         { title: "helper", code: `export { helper } from "./src"` },
       ],

@@ -24,6 +24,8 @@ export interface ExportOption {
   code: string;
   /** List of external dependency paths to ignore. @see {@link https://esbuild.github.io/api/#external} */
   externals?: string[];
+  /** List of top-level variable, function, or class names to treat as external and exclude from bundle size. */
+  externalSymbols?: (string | RegExp)[];
 }
 
 export interface ExportGroupOption {
@@ -33,6 +35,8 @@ export interface ExportGroupOption {
   exports: ExportOption[];
   /** List of external dependency paths shared by entries in this group. @see {@link https://esbuild.github.io/api/#external} */
   externals?: string[];
+  /** List of top-level variable, function, or class names shared by entries in this group to treat as external. */
+  externalSymbols?: (string | RegExp)[];
 }
 
 export interface SVGOptions {
